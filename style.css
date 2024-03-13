@@ -1,0 +1,77 @@
+
+
+.addPhotoBtn {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}
+
+.imagePreview, video {
+  width: 100%;
+  height: 650px;
+  object-fit: fill;
+}
+
+.imageCapture {
+  position: relative;
+}
+
+.cameraIcon {
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  width: 70px;
+  height: 70px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.imagePreviewWrapper {
+  position: relative;
+}
+
+.confirmPhotoBtn {
+  display: none;
+  position: absolute;
+  width: 45%;
+  right: 10px;
+  bottom: 10px;
+  border: none;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.cancelPhotoBtn {
+  display: none;
+  position: absolute;
+  width: 45%;
+  left: 10px;
+  bottom: 10px;
+  border: none;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.imagePreview {
+  display: none;
+}
+
+.addPhotoWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.submitPhoto{
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
