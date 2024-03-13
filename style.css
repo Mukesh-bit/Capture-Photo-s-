@@ -8,7 +8,7 @@
 
 .imagePreview, video {
   width: 100%;
-  height: 650px;
+  height: 610px;
   object-fit: fill;
 }
 
